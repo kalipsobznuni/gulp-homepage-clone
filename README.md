@@ -1,1 +1,1 @@
-# gulp-homepage-clone
+Reimplementing the homepage of Gulp --> gulp.js
