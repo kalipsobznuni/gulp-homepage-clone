@@ -34,10 +34,10 @@ class App extends Component {
                                             <div className='editor'>
                                             <pre>
                                               <code>
-                                                  <br /> <span className="prefixed">npm install gulp-cli -g</span>
-                                                 <br /> <span className="prefixed">npm install gulp -D</span>
-                                                  < br /> <span className="prefixed">touch gulpfile.js</span>
-                                                  <br /> <span className="prefixed">gulp --help</span>
+                                                  <br /> <span className="prefixed">$ npm install gulp-cli -g</span>
+                                                 <br /> <span className="prefixed">$ npm install gulp -D</span>
+                                                  < br /> <span className="prefixed">$ touch gulpfile.js</span>
+                                                  <br /> <span className="prefixed">$ gulp --help</span>
                                                 </code>
                                               </pre>
                                             </div>
@@ -97,24 +97,30 @@ class App extends Component {
                               <span className="editor-maximize"></span>
                               <span className="editor-filename">gulpfile.js</span>
                             </div>
-                            <span className="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp'</span>);
-                            <span className="hljs-keyword">var</span> pug = <span class="mobile-show"><br />  </span><span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp-pug'</span>);
-                            <span className="hljs-keyword">var</span> less = <span class="mobile-show"><br />  </span><span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp-less'</span>);
-                            <span className="hljs-keyword">var</span> minifyCSS = <span class="mobile-show"><br />  </span><span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp-csso'</span>);
-                            some code here
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
+                                    blahhblahblahblah   blahhblahblahblah blahhblahblahblah <br/>
                           </div>
                         </div>
                       </div>
                     </div>
-
-                  <div className="socialproof">
+<div className="socialproof">
                             <div className="container-sml">
                               <div className="flex text-center">
                                 <div className="col-12">
                                   <h4 className="subheading">
                                     "Builds can be the most awful sinkhole for teams to waste their time with - gulp is a serious win for any project."
                                   </h4>
-                                  <p className="paragraph">Eric, Co-founder @ stae</p>
+                                  <p className="paragraphEric">Eric, Co-founder @ stae</p>
                                 </div>
                               </div>
                             </div>
@@ -123,7 +129,7 @@ class App extends Component {
                             <div className="container-sml">
                               <div className="col-12 text-center">
                                 <div className="contribute-copy center vertical text-center">
-                                  <h3 className="subheading">Become a backer </h3>
+                                  <h3 className="subheading">Become a hacker </h3>
                                   <p className="paragraph">
                                     Support the community and keep development going strong.
                                   </p>
