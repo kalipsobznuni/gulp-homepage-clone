@@ -9,7 +9,7 @@ class App extends Component {
                       <div className='container-lrg'>
                           <div className='col12'>
                                 <a className='logo'>
-                                  <img className='logo1' src="images/logo1.svg" />
+                                  <img className='logo1' src="http://gulpjs.com/img/gulp-white-text.svg" />
                                 </a>
                                 <div className='mobcol12'>
                                 <a className="link" href="https://github.com/gulpjs/gulp/blob/master/docs/API.md">Docs</a>
@@ -34,10 +34,10 @@ class App extends Component {
                                             <div className='editor'>
                                             <pre>
                                               <code>
-                                                  <span className="prefixed">npm install gulp-cli -g</span>
-                                                  <span className="prefixed">npm install gulp -D</span>
-                                                  <span className="prefixed">touch gulpfile.js</span>
-                                                  <span className="prefixed">gulp --help</span>
+                                                  <br /> <span className="prefixed">npm install gulp-cli -g</span>
+                                                 <br /> <span className="prefixed">npm install gulp -D</span>
+                                                  < br /> <span className="prefixed">touch gulpfile.js</span>
+                                                  <br /> <span className="prefixed">gulp --help</span>
                                                 </code>
                                               </pre>
                                             </div>
@@ -62,23 +62,23 @@ class App extends Component {
                     </header>
 
                     <div className="feature3">
-                     <div className="container-lrg flex baseline">
+                     <div className="container-lrg-flex-baseline">
                        <div className="col-4">
-                         <b className="svg center"><img class="mask-img" src="images/browser.svg" /> </b>
+                         <b className="svg center"><img className="featureimg" src="http://gulpjs.com/img/browser.svg" /> </b>
                          <h3 className="subheading center">Simple Usage</h3>
                          <p className="paragraph">
                            By preferring code over configuration, node best practices, and a minimal API surface - gulp makes things simple like never before.
                          </p>
                        </div>
                        <div className="col-4">
-                         <b className="svg center"><img class="mask-img" src="images/guage.svg"/></b>
+                         <b className="svg center"><img className="featureimg" src="http://gulpjs.com/img/guage.svg"/></b>
                          <h3 className="subheading center">Efficient Builds</h3>
                          <p className="paragraph">
                            Using the power of node streams, gulp gives you fast builds that don't write intermediary files to disk.
                          </p>
                        </div>
                        <div className="col-4">
-                         <b className="svg center"><img class="mask-img" src="images/atom.svg"/></b>
+                         <b className="svg center"><img className="featureimg" src="http://gulpjs.com/img/atom.svg"/></b>
                          <h3 className="subheading center">Quality Ecosystem</h3>
                          <p className="paragraph">
                            By enforcing strict guidelines, we ensure our plugins stay simple and work as expected.
