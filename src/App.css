@@ -66,11 +66,6 @@ line-height: 68px;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .logo1{
-        display: none;
-    }
-}
 
 .centerdev12 {
   width: 60%;
