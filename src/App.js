@@ -7,7 +7,7 @@ class App extends Component {
                <div className="app">
                 <header>
                       <div className='container-lrg'>
-                          <div className='col12'>
+                          <div className='col12-1'>
                                 <a className='logo'>
                                   <img className='logo1' src="http://gulpjs.com/img/gulp-white-text.svg" />
                                 </a>
@@ -20,7 +20,7 @@ class App extends Component {
                           </div>
                       </div>
                       <div className='container-lrg'>
-                            <div className='col12'>
+                            <div className='col12-1'>
                                   <h1 className='headingtext'>
                                           Automate and enhance your workflow
                                   </h1>
@@ -54,7 +54,7 @@ class App extends Component {
                               </h2>
                               <div className='ctas'>
                                 <a className='ctas-button' href ='https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md'>
-                                Get Started
+                                Get_Started
                                 </a>
                               </div>
                           </div>
@@ -133,8 +133,10 @@ class App extends Component {
                                   <p className="paragraph">
                                     Support the community and keep development going strong.
                                   </p>
+                                  <div className='ctas'>
                                   <a className="ctas-button" href="https://opencollective.com/gulpjs">Donate</a>
-                                </div>
+                              </div>
+                              </div>
                               </div>
                             </div>
                           </div>

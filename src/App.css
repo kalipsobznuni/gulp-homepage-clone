@@ -9,6 +9,7 @@ body {
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-smoothing: antiialiased;
+  overflow-x: hidden;
 }
 
 
@@ -36,7 +37,7 @@ color: white;
   margin: auto;
 }
 
-.col12{
+.col12-1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -74,6 +75,7 @@ line-height: 68px;
 }
 
 .col12{
+  display: block;
   width: 100%;
   padding: 0 20px;
 }
@@ -126,6 +128,7 @@ height: 100%;
 }
 
 .container-sml{
+
   max-width: 700px;
   margin: auto;
 
@@ -145,14 +148,11 @@ webkit-margin-end: 0px;
 }
 
 .ctas{
-  display: flex;
-  margin: 40px 0 0 0;
   text-align: center;
 }
 
-
 .ctas-button{
-margin-left: 40%;
+display: inline-block;
 height: 40px;
 color: #CF4647;
 line-height: 38px;
@@ -216,15 +216,15 @@ p{
 }
 
 .paragraphEric {
-  font-size: 17px;
+font-size: 17px;
 line-height: 32px;
 font-weight: 100;
 text-align: center;
 }
 
 .whatisgulp{
-  display: block;
-  padding: 90px 0;
+display: block;
+padding: 90px 0;
 background-color: #3A3E64;
 color: rgba(255, 255, 255, 0.6);
 margin: 0;
@@ -233,10 +233,10 @@ box-sizing: border-box;
 
 .editor-window{
   width: 640px;
+  display: block;
   background-color: #141414;
   color: rgba(255, 255, 255, 0.6);
-  display: block;
-}
+  }
 
 @media (max-width: 650px ){
   .editor-window{
@@ -323,7 +323,15 @@ display: flex;
 padding: 0px 18% 0 18%;
 
 }
+
+@media (max-width: 640px){
+  .container-lrg-flex-baseline{
+    display: block;
+  }
+}
 .featureimg{
+margin-left: 40%;
+margin-right: 35%;
 width:100vw/3;
 
 }
@@ -334,4 +342,10 @@ width:100vw/3;
   line-height: 30px;
   font-weight: 900;
   box-sizing: border-box;
+}
+
+@media (max-width: 640px){
+  .logo1{
+    display: none;
+  }
 }
