@@ -29,6 +29,7 @@ class App extends Component {
                       <div className='container-lrg'>
                             <div className='centerdev12'>
                                   <div className='computerwrap'>
+
                                       <div className='comp'>
                                           <div className='mask'>
                                             <div className='editor'>
